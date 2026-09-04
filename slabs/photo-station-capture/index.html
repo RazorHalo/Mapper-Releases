@@ -1,0 +1,1606 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="User guide for Mapper — stone fabrication layout software">
+      
+      
+      
+        <link rel="canonical" href="https://razorhalo.github.io/Mapper-Releases/slabs/photo-station-capture/">
+      
+      
+        <link rel="prev" href="../auto-crop/">
+      
+      
+        <link rel="next" href="../photo-station/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.59">
+    
+    
+      
+        <title>Photo Station (Camera Capture) - Mapper Documentation</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../assets/stylesheets/modern/main.5da3a30f.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/modern/palette.812a03bb.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#photo-station-capture" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Mapper Documentation" class="md-header__button md-logo" aria-label="Mapper Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m0 2v12h7V6zm16 12V6h-1.24c.24.54.19 1.07.19 1.13-.07.67-.54 1.37-.71 1.62l-2.33 2.55 3.32-.02.01 1.22-5.2-.03-.04-1s3.05-3.23 3.2-3.52c.14-.28.71-1.95-.7-1.95-1.23.05-1.09 1.3-1.09 1.3l-1.54.01s.01-.66.38-1.31H13v12h2.58l-.01-.86.97-.01s.91-.16.92-1.05c.04-1-.81-1-.96-1-.13 0-1.07.05-1.07.87h-1.52s.04-2.06 2.59-2.06c2.6 0 2.46 2.02 2.46 2.02s.04 1.25-1.11 1.72l.52.37zM8.92 16h-1.5v-5.8l-1.8.56V9.53l3.14-1.12h.16z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mapper Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Photo Station (Camera Capture)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Mapper Documentation" class="md-nav__button md-logo" aria-label="Mapper Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m0 2v12h7V6zm16 12V6h-1.24c.24.54.19 1.07.19 1.13-.07.67-.54 1.37-.71 1.62l-2.33 2.55 3.32-.02.01 1.22-5.2-.03-.04-1s3.05-3.23 3.2-3.52c.14-.28.71-1.95-.7-1.95-1.23.05-1.09 1.3-1.09 1.3l-1.54.01s.01-.66.38-1.31H13v12h2.58l-.01-.86.97-.01s.91-.16.92-1.05c.04-1-.81-1-.96-1-.13 0-1.07.05-1.07.87h-1.52s.04-2.06 2.59-2.06c2.6 0 2.46 2.02 2.46 2.02s.04 1.25-1.11 1.72l.52.37zM8.92 16h-1.5v-5.8l-1.8.56V9.53l3.14-1.12h.16z"/></svg>
+
+    </a>
+    Mapper Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Home
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Getting Started
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Getting Started
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Installation & Licensing
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/first-project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Your First Project
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/interface-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Interface Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Slabs
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Slabs
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adding-slabs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Adding a Slab
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../editing-slabs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Editing Slabs
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../auto-crop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Auto-Crop
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Photo Station (Camera Capture)
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Photo Station (Camera Capture)
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#camera-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Camera Setup
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrated-vs-standalone" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Integrated vs Standalone
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Integrated vs Standalone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standalone-licensing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Standalone Licensing
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opening-photo-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Opening Photo Station
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#form-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Form Fields
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#live-view-take-and-retake" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Live View, Take, and Retake
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Save Behavior
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Save Behavior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#filename-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Filename Templates
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#json-sidecar-off-by-default" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        JSON Sidecar (off by default)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-on-the-integrated-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Save on the Integrated Window
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#label-printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Label Printing
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Settings
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Troubleshooting
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photo-station/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Photo Station Calibration
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../layout-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Layout Settings
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filename-parsing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Filename Parsing
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Parts
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Parts
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parts/importing-dxf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Importing DXF Files
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parts/adding-parts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Adding Parts Manually
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parts/moving-parts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Moving & Positioning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parts/interaction-modes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Interaction Modes
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parts/part-states/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part States & Colors
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Export & Reports
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Export & Reports
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../export/dxf-export/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  DXF Export
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../export/pdf-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  PDF Reports
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../export/labels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Label Generator
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../render/render-window/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Render Window
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Reference
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Reference
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/keyboard-shortcuts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Keyboard Shortcuts
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/menus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Menus & Toolbar
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="photo-station-capture">Photo Station Capture<a class="headerlink" href="#photo-station-capture" title="Permanent link">&para;</a></h1>
+<p>Photo Station Capture drives a tethered Canon camera to photograph slabs, fills in the job details, and saves a JPG plus a metadata file that Mapper can read back later. It replaces walking a memory card back and forth between the photo station and the mapping PC.</p>
+<div class="admonition note">
+<p class="admonition-title">Not the same as Photo Station calibration</p>
+<p>This page covers the camera capture window. If you're looking for the pixels-to-inches calibration used by Auto-Crop, see <a href="../photo-station/">Photo Station Setup</a> instead — that's a separate, older feature with the same name for the same physical setup (a fixed camera position), but it doesn't involve a tethered camera.</p>
+</div>
+<h2 id="camera-setup">Camera Setup<a class="headerlink" href="#camera-setup" title="Permanent link">&para;</a></h2>
+<p>Photo Station Capture is built for Canon cameras (tested with the EOS R100; other EDSDK-compatible Canon bodies should also work).</p>
+<ol>
+<li>Connect the camera to the PC with a USB cable</li>
+<li>Turn the camera <strong>on</strong></li>
+<li>Open Photo Station (see below) — it detects the camera automatically</li>
+</ol>
+<p>You don't need to insert or format an SD card for this workflow: photos download directly to the PC and are never written to the card.</p>
+<p>If the camera is turned on after the window is already open, it's detected automatically — there's no reconnect button to press. If the camera goes to sleep or is unplugged mid-session, Photo Station shows <strong>Waiting for camera…</strong> and reconnects on its own once it's available again; nothing you've already shot is lost.</p>
+<h2 id="integrated-vs-standalone">Integrated vs Standalone<a class="headerlink" href="#integrated-vs-standalone" title="Permanent link">&para;</a></h2>
+<p>Photo Station runs in two forms:</p>
+<ul>
+<li><strong>Integrated</strong> — a window inside Mapper, for shops that photograph and map on the same PC. Open it from <strong>View &gt; Photo Station...</strong>. Saved photos can be imported straight into the open project as a new slab.</li>
+<li><strong>Standalone</strong> — a separate, lightweight installer for a dedicated photo-station PC (e.g., in the fabrication shop, away from the mapping computer). It only does capture, form entry, save, and label printing — no DXF, no layout.</li>
+</ul>
+<h3 id="standalone-licensing">Standalone Licensing<a class="headerlink" href="#standalone-licensing" title="Permanent link">&para;</a></h3>
+<p>The standalone app requires a license key on first launch, but it's <strong>not a second license</strong> — enter the same key you already use for Mapper. Activating Photo Station Capture does <strong>not</strong> consume one of your Mapper seats; it's tracked separately on the license server specifically so a shop can run a dedicated photo station without buying an extra seat.</p>
+<h2 id="opening-photo-station">Opening Photo Station<a class="headerlink" href="#opening-photo-station" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Integrated:</strong> the <strong>Photo Station</strong> button on the main toolbar, or <strong>View &gt; Photo Station...</strong> in the main menu</li>
+<li><strong>Standalone:</strong> launch the Mapper Photo Station app directly</li>
+</ul>
+<p>The window (or app) stays open across sessions the same way the Render Window does — closing it with the X hides it; it reopens instantly next time rather than restarting the camera connection from scratch.</p>
+<div class="admonition tip">
+<p class="admonition-title">Standalone window opens maximized</p>
+<p>The standalone app opens maximized on launch (minimum size 900x600), so it fills a shop-PC monitor without you needing to resize it. Un-maximize any time if you'd rather run it in a smaller window.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Live view looks too dark?</p>
+<p>The first time you open Photo Station, a one-time tip reminds you to open your camera's menu and set <strong>Exposure Simulation</strong> to <strong>Disable</strong> if the live preview looks unusually dark. This only affects what you see on screen — your saved photos keep their normal exposure either way. Check "Don't show this again" to dismiss it for good.</p>
+</div>
+<h2 id="form-fields">Form Fields<a class="headerlink" href="#form-fields" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Job Name</strong></td>
+<td>Yes</td>
+<td>Upper-cased automatically in the saved filename</td>
+</tr>
+<tr>
+<td><strong>Stone Color</strong></td>
+<td>Yes</td>
+<td>Title-cased automatically in the saved filename</td>
+</tr>
+<tr>
+<td><strong>Thickness</strong></td>
+<td>Yes</td>
+<td>Dropdown — options editable in Settings</td>
+</tr>
+<tr>
+<td><strong>Length</strong></td>
+<td>No</td>
+<td>In inches; appears in the filename only when Height is also filled in</td>
+</tr>
+<tr>
+<td><strong>Height</strong></td>
+<td>No</td>
+<td>In inches; appears in the filename only when Length is also filled in</td>
+</tr>
+<tr>
+<td><strong>Material</strong></td>
+<td>No</td>
+<td>Dropdown — options editable in Settings</td>
+</tr>
+<tr>
+<td><strong>Slab #</strong></td>
+<td>No</td>
+<td>Omitted from the filename if blank</td>
+</tr>
+</tbody>
+</table>
+<p>Job Name, Stone Color, and Thickness are required to save a photo or print a label — you can print a label from the form alone, without taking a photo first.</p>
+<h2 id="live-view-take-and-retake">Live View, Take, and Retake<a class="headerlink" href="#live-view-take-and-retake" title="Permanent link">&para;</a></h2>
+<p>While the camera is connected and you haven't just taken a shot, the preview panel shows a live feed from the camera, marked with a <strong>LIVE VIEW</strong> badge in the top-left corner so you always know you're looking at the live stream rather than a captured photo. Press <strong>TAKE PHOTO</strong> (or Enter) to capture — the shot appears in the preview and is added to the session's history strip (the vertical filmstrip to the right of the preview).</p>
+<ul>
+<li>Click any thumbnail in the filmstrip to review that shot (this is what <strong>Save</strong> will use)</li>
+<li><strong>Double-click</strong> a thumbnail to open it full-size in a popup — scroll the mouse wheel to zoom in/out (centered on the cursor), drag to pan, double-click the popup or click <strong>Fit</strong> to reset, <strong>Escape</strong> or <strong>Close</strong> to dismiss. Handy for checking focus or pattern detail before you move on</li>
+<li>Click <strong>Back to live</strong> to return to the live feed and take another shot</li>
+<li><strong>Reset</strong> clears the whole session's shots and form fields</li>
+</ul>
+<p>If a capture doesn't come back within about 10 seconds, Photo Station shows a timeout error and returns to live view — check the cable and try again.</p>
+<h2 id="save-behavior">Save Behavior<a class="headerlink" href="#save-behavior" title="Permanent link">&para;</a></h2>
+<p>There are two save buttons, both acting on the currently-selected shot:</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Clears</th>
+<th>Use when</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Save &amp; Next Slab</strong></td>
+<td>Only Length, Height, and Slab #</td>
+<td>Shooting a batch of slabs for the <em>same</em> job and stone — Job Name, Stone Color, Material, and Thickness stay filled in</td>
+</tr>
+<tr>
+<td><strong>Save &amp; Clear</strong></td>
+<td>Every field</td>
+<td>Moving on to a different job or stone</td>
+</tr>
+</tbody>
+</table>
+<p>Slab # is always left blank after saving rather than auto-incremented — slabs are often shot out of numeric order, so Mapper doesn't guess at the next number.</p>
+<p>Either button writes the currently-selected shot as a JPG using your <strong>filename template</strong> (see below). If a file with that name already exists, Mapper adds <code>(2)</code>, <code>(3)</code>, etc. — it never overwrites an existing photo.</p>
+<p><strong>Clear filmstrip on save</strong> (checkbox above the save buttons, on by default): after a successful save, the <em>entire</em> filmstrip is cleared — not just the saved shot — so an old photo can't be saved for the next slab by mistake. Untick it if you deliberately shoot several slabs before saving any of them; saving then removes only the selected shot and keeps the rest.</p>
+<h3 id="filename-templates">Filename Templates<a class="headerlink" href="#filename-templates" title="Permanent link">&para;</a></h3>
+<p>The saved filename is built from a template of <code>{Token}</code> placeholders, editable in Settings (see below). The default template is:</p>
+<div class="highlight"><pre><span></span><code>{JobName} - {Thickness} {StoneColor}[ #{SlabNumber}][ - {Length}x{Height}]
+</code></pre></div>
+<p>which produces names like <code>SMITH KITCHEN - 3cm Calacatta Gold #2 - 130x78.jpg</code>.</p>
+<p>Square brackets <code>[ ... ]</code> mark an <strong>optional group</strong>: everything inside — including spaces, <code>#</code>, or <code>-</code> — is dropped together whenever any token inside it is empty. That's why the slab-number and dimensions portions disappear cleanly from the name instead of leaving a stray <code>#</code> or <code>-</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Token</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{JobName}</code></td>
+<td>Upper-cased</td>
+</tr>
+<tr>
+<td><code>{StoneColor}</code></td>
+<td>Title-cased</td>
+</tr>
+<tr>
+<td><code>{Material}</code></td>
+<td>As selected in the dropdown</td>
+</tr>
+<tr>
+<td><code>{Thickness}</code></td>
+<td>As selected in the dropdown</td>
+</tr>
+<tr>
+<td><code>{SlabNumber}</code></td>
+<td>Blank if not entered</td>
+</tr>
+<tr>
+<td><code>{Length}</code> / <code>{Height}</code></td>
+<td>In inches; blank if not entered</td>
+</tr>
+<tr>
+<td><code>{Date}</code></td>
+<td><code>yyyy-MM-dd</code>, at save time</td>
+</tr>
+<tr>
+<td><code>{Time}</code></td>
+<td><code>HHmmss</code>, at save time</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Dimensions are all-or-nothing</p>
+<p>The <code>[ - {Length}x{Height}]</code> group only appears when <strong>both</strong> Length and Height are filled in — entering just one drops the whole segment from the filename (the value you did enter is still saved if you're writing a sidecar, just not reflected in the name).</p>
+</div>
+<h3 id="json-sidecar-off-by-default">JSON Sidecar (off by default)<a class="headerlink" href="#json-sidecar-off-by-default" title="Permanent link">&para;</a></h3>
+<p>Mapper can optionally write a matching <code>.json</code> "sidecar" file alongside the JPG (metadata: job, color, material, thickness, slab #, dimensions, capture time, camera model). <strong>As of this version, the sidecar is off by default</strong> — turn it on in Settings if you want it.</p>
+<p><strong>Why you'd want it on:</strong> it's what lets <strong>Add Slab</strong> on the mapping PC prefill the name, material, thickness, and dimensions automatically when you load a saved photo. Without it, Add Slab falls back to parsing the filename instead — which recovers job name, stone color, and dimensions (if your template includes them), but <strong>not Material</strong>, since there's no filename-parse equivalent for it. If you want Material to prefill without the sidecar, add <code>{Material}</code> to your filename template so it's at least visible in the name for reference.</p>
+<p><strong>Where photos are saved:</strong></p>
+<ul>
+<li><strong>Integrated:</strong> a <code>Photos</code> subfolder next to your <code>.map</code> project file. If the project hasn't been saved yet, photos go to the default folder configured in settings instead.</li>
+<li><strong>Standalone:</strong> the folder configured in the app's Settings dialog — typically a synced folder (OneDrive or similar) that's also reachable from the mapping PC.</li>
+</ul>
+<p><strong>Cross-PC workflow:</strong> if you shoot on a standalone photo-station PC and map on a different PC, point the standalone save folder at a folder that syncs to (or is shared with) the mapping PC. If the sidecar is turned on, once the JPG and its <code>.json</code> file arrive there, opening that photo in <strong>Add Slab</strong> on the mapping PC prefills the fields automatically — this is the entire integration between the two machines. With the sidecar off, filename parsing does the same job for whichever fields your template includes.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Add Slab reads a sidecar for <em>any</em> image you load, not just ones saved from Photo Station — as long as a <code>.json</code> file with the same name sits next to the <code>.jpg</code>.</p>
+</div>
+<h3 id="save-on-the-integrated-window">Save on the Integrated Window<a class="headerlink" href="#save-on-the-integrated-window" title="Permanent link">&para;</a></h3>
+<p>When Photo Station is running inside Mapper, either save button does both of the following:</p>
+<ol>
+<li>Writes the JPG (and sidecar, if enabled) to the <code>Photos</code> folder, exactly as standalone does — this is your permanent record</li>
+<li>Opens the normal <strong>Add Slab</strong> dialog for that photo, pre-filled from the form, so you can crop and add it to the open project right away</li>
+</ol>
+<h2 id="label-printing">Label Printing<a class="headerlink" href="#label-printing" title="Permanent link">&para;</a></h2>
+<p>Click <strong>Print Label</strong> to print a 4"x3" label (at 300 DPI) with the job name, stone color, material, thickness, dimensions, slab number, date, and a QR code encoding the same metadata as the sidecar. It works with just the form filled in — a photo isn't required.</p>
+<p>Set the printer used in Settings (standalone) or your usual print settings (integrated).</p>
+<h2 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Thickness / Material options</strong> — comma-separated lists, editable in the Settings dialog (standalone) or the app's settings (integrated)</li>
+<li><strong>Save Path</strong> — the default photo/sidecar folder</li>
+<li><strong>Printer</strong> — which printer label prints go to</li>
+<li><strong>Filename Template</strong> — the token template used to name saved photos (see <a href="#filename-templates">Filename Templates</a> above), with a live example preview underneath the field so you can check your changes before saving. Leaving it blank restores the default template</li>
+<li><strong>Also write a .json sidecar next to each photo</strong> — checkbox, off by default (see <a href="#json-sidecar-off-by-default">JSON Sidecar</a> above)</li>
+</ul>
+<p><strong>Where to find Settings:</strong> in the standalone app, <strong>File &gt; Settings</strong>; in the integrated window, the <strong>Settings</strong> button in the top-right corner. Both open the same dialog. On the integrated window, the Save Folder is only a fallback used while the project hasn't been saved yet — once it has, photos always go to the <code>Photos</code> folder next to the project file.</p>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<p><strong>Camera not detected</strong></p>
+<ul>
+<li>Confirm the USB cable is connected and the camera is powered on</li>
+<li>Try a different USB port or cable</li>
+<li>Make sure no other application (including Canon's own EOS software) is already connected to the camera — EDSDK cameras can only be controlled by one application at a time</li>
+<li>Restart Photo Station if the camera was plugged in before the app started and still isn't showing as connected</li>
+</ul>
+<p><strong>Photos aren't prefilling in Add Slab</strong></p>
+<ul>
+<li>Check whether the sidecar checkbox is turned on in Settings — it's off by default, so if you haven't enabled it, prefill is coming entirely from filename parsing, and Material won't prefill (add <code>{Material}</code> to your template if you need it visible)</li>
+<li>If the sidecar is on, check that both the <code>.jpg</code> and its matching <code>.json</code> file made it to the folder you're loading from — if only the photo synced (some sync tools can lag on small files, or a firewall/AV tool may have blocked one), the prefill data won't be there</li>
+<li>The sidecar must have the same filename as the photo (just a different extension) and must not have been renamed independently of it</li>
+</ul>
+<p><strong>Save fails with a folder error</strong></p>
+<ul>
+<li>For the integrated window: save the project first, or set a default photo folder in settings</li>
+<li>For standalone: set a save folder in the Settings dialog before saving</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["navigation.instant","navigation.tracking","navigation.sections","navigation.expand","navigation.top","search.suggest","search.highlight","content.tabs.link","toc.integrate"],"search":"../../assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6970bfe9.min.js"></script>
+      
+    
+  </body>
+</html>
